@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/KPCSS">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous" />
+   
+        
+    <title>Adi</title>
+  </head>
+  <body>
+    
+    <!-- Color Variant Nav Bar -->
+    <!-- <h1 class="mb-5">NavBar</h1> -->
+    <!-- change colour of Nav bar -->
+    <nav class="navbar navbar-expand-md bg-secondary navbar-dark fixed-top">
+      <div class="container">
+        <!-- Insert Logo Img  -->
+        <a href="#" class="navbar-brand"><img src="images/logo.jpg" style="height:60px; width:60px;"></a>
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider Start -->
+    <div class="container">
+      <h1 class="mb-5">Carousel</h1>
+
+      <!-- Carousel -->
+      <div class="carousel slide" id="slider">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            data-bs-slide-to="0"
+            data-bs-target="#slider"
+          ></button>
+          <button data-bs-slide-to="1" data-bs-target="#slider"></button>
+          <button data-bs-slide-to="2" data-bs-target="#slider"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/1.jpg"  class="d-block w-100" style="width:100%; height:400px"/>
+
+            <!-- on top of image caption start -->
+            <div
+              class="carousel-caption d-none d-md-block bg-secondary opacity-75"
+            >
+              <h5>Modern JS From The Beginning</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <!-- on top of image caption stop -->
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/2..webp" alt="" class="d-block w-100" style="width:100%; height:400px"/>
+            <!-- on top of image caption start -->
+            <div
+              class="carousel-caption d-none d-md-block bg-secondary opacity-75"
+            >
+              <h5>MERN Stack From Scratch</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <!-- on top of image caption stop -->
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/3.avif" alt="" class="d-block w-100" style="width:100%; height:400px"/>
+            <!-- on top of image caption start -->
+            <div
+              class="carousel-caption d-none d-md-block bg-secondary opacity-75"
+            >
+              <h5>Tailwind From Scratch</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <!-- on top of image caption stop -->
+          </div>
+        </div>
+        <!-- Buttons -->
+        <button
+          class="carousel-control-prev"
+          data-bs-slide="prev"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-slide="next"
+          data-bs-target="#slider"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- slider End -->
+
+      <!-- Services -->
+      <section id="services" class="projects my-6">
+        <div class="container">
+          <div class="row mb-5">
+            <div
+              class="col-md-6 offset-md-3 d-flex flex-column align-item-center text-center"
+            >
+              <h5>
+                <span class="badge bg-primary rounded-0 text-uppercase">
+                  services
+                </span>
+              </h5>
+              <h2 class="fw-bold">We are Happy Serve you following Services</h2>
+              
+            </div>
+          </div>
+          <!-- Project row 1 -->
+          <div class="row">
+            <div class="col-md-2 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal1">
+                  <img
+                    src="category/bleach & d-tan.webp"
+                    alt=""
+                    class="card-img-top rounded-5"
+                  />
+                  <div class="card-body">
+                    <p><strong>Bleach & D-Tan</strong>-Know More</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+  
+            <div class="col-md-2 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal2">
+                  <img
+                    src="category/bridalmakeup.webp"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p><strong>Bridal Make-up</strong>-Know More</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+  
+  
+            
+              <div class="col-md-2 mb-4">
+                <div class="card bg-secondary">
+                  <a data-bs-toggle="modal" data-bs-target="#modal3">
+                    <img
+                      src="category/facial & cleanup.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p><strong>Facial & Cleanup</strong>-Know More</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+    
+              <div class="col-md-2 mb-4">
+                <div class="card bg-secondary">
+                  <a data-bs-toggle="modal" data-bs-target="#modal4">
+                    <img
+                      src="category/haircare.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p><strong>Hair Care</strong>-Know More</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+  
+             
+                <div class="col-md-2 mb-4">
+                  <div class="card bg-secondary">
+                    <a data-bs-toggle="modal" data-bs-target="#modal5">
+                      <img
+                        src="category/makeup.webp"
+                        alt=""
+                        class="card-img-top"
+                      />
+                      <div class="card-body">
+                        <p><strong>Make-up</strong>-Know More</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+      
+                <div class="col-md-2 mb-4">
+                  <div class="card bg-secondary">
+                    <a data-bs-toggle="modal" data-bs-target="#modal6">
+                      <img
+                        src="category/mani-padi.webp"
+                        alt=""
+                        class="card-img-top"
+                      />
+                      <div class="card-body">
+                        <p><strong>Mani-Padi</strong>-Know More</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+  
+                
+                  <div class="col-md-2 mb-4">
+                    <div class="card bg-secondary">
+                      <a data-bs-toggle="modal" data-bs-target="#modal8">
+                        <img
+                          src="category/packages.webp"
+                          alt=""
+                          class="card-img-top"
+                        />
+                        <div class="card-body">
+                          <p><strong>Packages</strong>-Know More</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+        
+                  <div class="col-md-2 mb-4">
+                    <div class="card bg-secondary">
+                      <a data-bs-toggle="modal" data-bs-target="#modal9">
+                        <img
+                          src="category/pre-bridal.webp"
+                          alt=""
+                          class="card-img-top"
+                        />
+                        <div class="card-body">
+                          <p><strong>Pre-Bridal</strong>-Know More</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+  
+                  
+                    <div class="col-md-2 mb-4">
+                      <div class="card bg-secondary">
+                        <a data-bs-toggle="modal" data-bs-target="#modal10">
+                          <img
+                            src="category/threading.webp"
+                            alt=""
+                            class="card-img-top"
+                          />
+                          <div class="card-body">
+                            <p><strong>Threading</strong>-Know More</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+          
+                    <div class="col-md-2 mb-4">
+                      <div class="card bg-secondary">
+                        <a data-bs-toggle="modal" data-bs-target="#modal11">
+                          <img
+                            src="category/waxing.webp"
+                            alt=""
+                            class="card-img-top"
+                          />
+                          <div class="card-body">
+                            <p><strong>Waxing</strong>-Know More</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+     
+        </div>
+      </section>
+  
+      <!-- services modals -->
+      <div class="project modals">
+        <!-- modal1 -->
+        <div id="modal1" class="modal fade">
+          <div class="modal-dialog modal-lg mt-7">
+            <div class="modal-content bg-secondary p-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="category/bleach & d-tan.webp" alt="" class="img-flud">
+                </div>
+                <div class="col-md-6">
+                  <h3>Bleach & D-Tan</h3><hr>
+                  <h5 class="text-black">Face & Neck</h5><br>
+                  <p>Rs380 (21% OFF)</p>
+                  <p>30 mins</p>
+                  <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Services End-->
+
+    <script>
+      // Automatically advance the carousel every 5 seconds
+      setInterval(function () {
+        var slider = document.getElementById("slider");
+        var currentSlide = slider.querySelector(".carousel-item.active");
+        var nextSlide =
+          currentSlide.nextElementSibling ||
+          slider.querySelector(".carousel-item:first-child");
+        currentSlide.classList.remove("active");
+        nextSlide.classList.add("active");
+      }, 5000); // Change the time interval (in milliseconds) as needed
+    </script>
+
+    <footer class="bg-secondary py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <h6 class="text-dark fw-bold">Address</h6>
+            <p>
+              106, Kopar Rd, Shivaji Nagar, Kopargaon, Dombivli West, Kopar Rd, West, Dombivli, Maharashtra 421202
+               Phone: 090824 11524
+            </p>
+          </div>
+          <div class="col-md-4 my-3">
+            <h6>Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                Menu: <a href="#">Home</a>,<a href="#details">Details</a>,<a
+                  href="#services"
+                  >Services</a
+                >,<a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="mb-4">
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-facebook fa-3x text-dark mx-2"></i>
+            </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-twitter fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-instagram fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-pinterest fa-3x text-dark mx-2"></i>
+              </a>
+            </div>
+            <p>
+              We would love to hear from you
+              <a href="mailto:contact@adi.com"
+                ><strong>contact@adi.com</strong></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</button>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="js/darkmodetoggle.js"></script>
+  </body>
+</html>
